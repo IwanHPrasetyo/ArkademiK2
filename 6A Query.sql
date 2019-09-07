@@ -1,0 +1,1 @@
+SELECT n.name, w.name, k.salary from name as n join work as w on n.id_work = w.id join kategori as k on n.id_salary = k.id
